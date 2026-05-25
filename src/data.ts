@@ -1,12 +1,17 @@
 import { Project, Service } from "./types";
+import heroImage from "./assets/images/hero_cinematic_1779708719256.png";
+import villaImage from "./assets/images/residential_villa_1779708738073.png";
+import finishingImage from "./assets/images/architectural_finishing_1779708755892.png";
+import landscapeImage from "./assets/images/isabo_landscape_1779708779227.png";
+import constructionImage from "./assets/images/structural_construction_1779708799354.png";
 
-// Local image references generated during setup
+// Local image references resolved by Vite
 export const CINEMATIC_IMAGES = {
-  hero: "/src/assets/images/hero_cinematic_1779708719256.png",
-  villa: "/src/assets/images/residential_villa_1779708738073.png",
-  finishing: "/src/assets/images/architectural_finishing_1779708755892.png",
-  landscape: "/src/assets/images/isabo_landscape_1779708779227.png",
-  construction: "/src/assets/images/structural_construction_1779708799354.png"
+  hero: heroImage,
+  villa: villaImage,
+  finishing: finishingImage,
+  landscape: landscapeImage,
+  construction: constructionImage
 };
 
 export const SERVICES_DATA: Service[] = [
